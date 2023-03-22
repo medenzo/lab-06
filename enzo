@@ -1,0 +1,21 @@
+def main():
+    while True:
+        print("Menu\n-------------\n1. Encode\n2. Decode\n3. Quit ")
+        option = input("\nPlease enter an option: ")
+        encoded_password = ''
+        decoded_password = ''
+
+        if option == '1':
+            password = input("Please enter your password to encode: ")
+            for i in range(0, len(password)):
+                encoded_password += str((int(password[i]) + 3) % 10)
+            print("The encoded password is", password, ", and the original password is", encoded_password, ".")
+
+//add option two
+
+        if option == '3':
+            berak
+
+
+if __name__ == '__main__':
+    main()
